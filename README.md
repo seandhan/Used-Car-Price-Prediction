@@ -13,4 +13,4 @@ As a senior data scientist at Cars4U, you have to come up with a pricing model t
 
 
 # Analysis
-Click [HERE](https://github.com/seandhan/Credit-Card-User-Segmentation/blob/main/CreditCardCustomerData.ipynb) to view the analysis.
+Click [HERE](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/UsedCarPredictionModel.ipynb) to view the analysis.
