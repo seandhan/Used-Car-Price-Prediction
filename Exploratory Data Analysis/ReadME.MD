@@ -2,6 +2,7 @@
 <summary>Importing Libraries & Data ingestion </summary>
 <br>
 
+
 # Importing Libraries
 
 
@@ -30,8 +31,12 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import warnings
 warnings.filterwarnings('ignore')
 ```
+</details>
+
 
 ---
+
+
 
 # Data ingestion 
 
@@ -39,8 +44,6 @@ warnings.filterwarnings('ignore')
 ```python
 data = pd.read_csv("cleaned_used_cars_data.csv")
 ```
-</details>
-
 
 ---
 
@@ -56,7 +59,7 @@ num_var= data.select_dtypes(include=np.number).columns.to_list()
 print(num_var)
 ```
 
-    ['Unnamed: 0', 'car_age', 'engine', 'kilometers_driven', 'mileage', 'power', 'price', 'seats', 'year']
+    ['car_age', 'engine', 'kilometers_driven', 'mileage', 'power', 'price', 'seats', 'year']
     
 
 **Histogram Overview**
@@ -277,8 +280,6 @@ for var in data.select_dtypes(include=np.number).columns.to_list():
         print(f"The '{var}' distribution is fairly symmetrical.\n")
 ```
 
-    The 'Unnamed: 0' distribution is fairly symmetrical.
-    
     The 'car_age' distribution is moderately right skewed.
     
     The 'engine' distribution is highly right skewed.
@@ -323,7 +324,6 @@ num_df.head()
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Unnamed: 0</th>
       <th>car_age</th>
       <th>engine</th>
       <th>kilometers_driven</th>
@@ -337,7 +337,6 @@ num_df.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>0</td>
       <td>16</td>
       <td>1489.0</td>
       <td>80000</td>
@@ -349,7 +348,6 @@ num_df.head()
     </tr>
     <tr>
       <th>1</th>
-      <td>1</td>
       <td>5</td>
       <td>1968.0</td>
       <td>79271</td>
@@ -362,7 +360,6 @@ num_df.head()
     <tr>
       <th>2</th>
       <td>2</td>
-      <td>2</td>
       <td>1968.0</td>
       <td>22000</td>
       <td>20.38</td>
@@ -374,7 +371,6 @@ num_df.head()
     <tr>
       <th>3</th>
       <td>3</td>
-      <td>3</td>
       <td>1968.0</td>
       <td>20003</td>
       <td>20.38</td>
@@ -385,7 +381,6 @@ num_df.head()
     </tr>
     <tr>
       <th>4</th>
-      <td>4</td>
       <td>3</td>
       <td>1968.0</td>
       <td>39000</td>
@@ -786,3 +781,12 @@ bar_chart(data.transmission)
 
 ---
 
+
+```python
+data.to_csv('dataprep_used_cars_data.csv', index=False)
+```
+
+
+```python
+
+```
