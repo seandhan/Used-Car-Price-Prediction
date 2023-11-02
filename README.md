@@ -71,11 +71,13 @@ The used cars database contains 14 variables. The data dictionary below explains
 
 [![Data Exploration](https://github.com/seandhan/image_database/blob/main/Solution-Dataset%20Exploration-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Dataset%20Exploration/ReadMe.md)
 
+There was a significant amount of data pre-processing required prior data visualization. These steps can be seen in the following section.
 
 ----
 
 ## 🛠️ Feature Engineering <a name = "feature-engineering"></a>
 
+The step by step data cleaning and wrangling can be observed in this section
 
 ### Click to view 👇:
 
@@ -86,6 +88,7 @@ The used cars database contains 14 variables. The data dictionary below explains
 
 ## 📊 Exploratory Data Analysis <a name = "exploratory-data-analysis"></a>
 
+The Univariate and Bivariate analysis can be seen here.
 
 ### Click to view 👇:
 
@@ -96,7 +99,7 @@ The used cars database contains 14 variables. The data dictionary below explains
 
 ## 🏗️ Model Building <a name = "model-building"></a>
 
-
+The data model preparation and linear regression steps can be seen here.
 
 ### Click to view 👇:
 
