@@ -43,10 +43,10 @@ The dataset source file can found through the following link:
 
 [![Data_link](https://github.com/seandhan/Scale-Model-Cars-Database-Analysis/blob/main/images/Data-LINK-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/data/used_cars_data.csv)
 
-
+The used cars database contains 14 variables. The data dictionary below explains each variable:
 
 <details>
-<summary>`Data Dictionary`</summary>
+<summary>Data Dictionary</summary>
 <br>
 
 1. `S.No.` : Serial Number
@@ -65,12 +65,21 @@ The dataset source file can found through the following link:
 14. `Price` : The price of the used car in INR Lakhs (1 Lakh = 100, 000)
 
 </details>
+
+
+### Click to view 👇:
+
+[![Data Exploration](https://github.com/seandhan/image_database/blob/main/Solution-Dataset%20Exploration-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Dataset%20Exploration/ReadMe.md)
+
+
 ----
 
 ## 🛠️ Feature Engineering <a name = "feature-engineering"></a>
 
 
+### Click to view 👇:
 
+[![Feature Engineering](https://github.com/seandhan/image_database/blob/main/Solution-Feature%20Engineering-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Feature%20Engineering/ReadME.MD)
 
 
 ----
@@ -78,7 +87,9 @@ The dataset source file can found through the following link:
 ## 📊 Exploratory Data Analysis <a name = "exploratory-data-analysis"></a>
 
 
+### Click to view 👇:
 
+[![Exploratory Data Analysis](https://github.com/seandhan/image_database/blob/main/Solution-Exploratory%20Data%20Analysis-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Exploratory%20Data%20Analysis/ReadME.MD)
 
 
 ----
@@ -87,7 +98,9 @@ The dataset source file can found through the following link:
 
 
 
+### Click to view 👇:
 
+[![Model Building](https://github.com/seandhan/image_database/blob/main/Solution-Model%20Building-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Model%20Building/README.MD)
 
 
 ----
@@ -95,7 +108,19 @@ The dataset source file can found through the following link:
 
 ## ✨ Recommendations <a name = "recommendations"></a>
 
+1. **Engine Size:** Consider offering a range of engine sizes to cater to different customer preferences. Smaller engines are typically more fuel-efficient, so emphasize their benefits for cost-conscious buyers. For those looking for more power, highlight the advantages of larger engines in terms of performance.
+<br>
 
+2. **Car Category:** Focus on popular car categories in your region. If compact cars are in demand, ensure you have a diverse selection of models in that category. Promote the benefits of each category, such as fuel efficiency for compact cars and spaciousness for SUVs.
+<br>
+
+3. **Region:** Tailor your inventory and marketing to match regional preferences. For example, if SUVs are popular in suburban areas, stock a variety of SUV models and emphasize their suitability for family and outdoor activities.
+<br>
+
+4. **Fuel Type:** Offer cars with different fuel types, including gasoline, diesel, and hybrid options. Highlight the cost savings and environmental benefits of fuel-efficient and hybrid vehicles, especially in regions where eco-friendliness is a priority.
+<br>
+
+5. **Mileage:** Clearly communicate the mileage and maintenance history of each vehicle. Lower mileage vehicles can be priced higher, so ensure prospective buyers have access to this information. Offer special promotions or warranties for low-mileage cars.
 
 
 
@@ -103,9 +128,29 @@ The dataset source file can found through the following link:
 
 ## 📗 Notebooks <a name = "notebooks"></a>
 
+The Notebook for the "Data Exploration" can be accessed below:
 
+### Click to view 👇:
 
+[![DataExp Notebook](https://github.com/seandhan/image_database/blob/main/Notebook-Dataset%20Exploration-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Notebooks/Data%20exploration.ipynb)
 
+The Notebook for the "Feature Engineering" can be accessed below:
+
+### Click to view 👇:
+
+[![Feature Engineering Notebook](https://github.com/seandhan/image_database/blob/main/Notebook-Feature%20engineering-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Notebooks/Feature_engineering.ipynb)
+
+The Notebook for the "Exploratory Data Analysis" can be accessed below:
+
+### Click to view 👇:
+
+[![EDA Notebook](https://github.com/seandhan/image_database/blob/main/Notebook-Exploratory%20Data%20analysis-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Notebooks/Exploratory%20Data%20Analysis.ipynb)
+
+The Notebook for the "Model Building" can be accessed below:
+
+### Click to view 👇:
+
+[![Model Building Notebook](https://github.com/seandhan/image_database/blob/main/Notebook-Model%20Building-.svg)](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/Notebooks/Model_Building.ipynb)
 
 ----
 
@@ -117,10 +162,3 @@ The dataset source file can found through the following link:
 - LinkedIn: [Sean Dhanasar](https://www.linkedin.com/in/sdhanasar)
 
 
-
-# Used-Car-Price-Prediction
-
-
-
-# Analysis
-Click [HERE](https://github.com/seandhan/Used-Car-Price-Prediction/blob/main/UsedCarPredictionModel.ipynb) to view the analysis.
