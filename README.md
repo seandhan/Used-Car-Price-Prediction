@@ -7,7 +7,7 @@
 
 
 
-<h1 align="center">🚗 Used-Car-Price-Prediction 💲🔮</h1>
+<h1 align="center">🚗 Used Car Price Prediction 💲🔮</h1>
 
 <p align="center">The primary objective of this project is to develop a pricing model that can effectively predict the price of used cars and can help the business devise profitable strategies using differential pricing.</p>
 
